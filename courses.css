@@ -1,0 +1,122 @@
+/* Reset some default styles */
+body, figure, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a box-sizing reset */
+body, figure, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  box-sizing: border-box;
+}
+
+/* Set default font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Responsive header */
+header {
+  background-size: 200px 110px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav ul li a:hover {
+  color: greenyellow;
+}
+
+/* Responsive main content */
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  height: 500px;
+  background-image: url("img/Evelyn-Hone-College.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.hero button {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.course-card {
+  width: calc(33.3% - 20px); /* Adjusted width and added margin-right */
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Fixed rgba value */
+  padding: 20px;
+}
+
+.course-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.course-card h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.course-card button {
+  background-color: black; /* Fixed rgba value */
+  color: whitesmoke;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.course-card button:hover {
+  background-color: green;
+}
