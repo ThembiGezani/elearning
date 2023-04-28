@@ -14,3 +14,22 @@ if (document.title === "courses") {
     });
   });
 }
+
+// code to handle the "enroll" buttons
+var enrollButtons = document.querySelectorAll(".enroll-button");
+enrollButtons.forEach(function(button) {
+  button.addEventListener("click", function() {
+    window.location.href = "signup.html";
+  });
+});
+
+var enrollButton1 = document.querySelector("#enroll-course1");
+enrollButton1.addEventListener("click", function () {
+  window.location.href = "signup.html";
+});
+
+var enrollButton2 = document.querySelector("#enroll-course2");
+enrollButton1.addEventListener("click", function () {
+  window.location.href = "signup.html";
+});
+
