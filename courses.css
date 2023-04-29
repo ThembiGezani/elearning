@@ -52,29 +52,19 @@ nav ul li a:hover {
 
 .hero {
   height: 500px;
-  background-image: url("img/Evelyn-Hone-College.jpg");
+  background-image: url("img/Thinkstock-programmer.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  color: #fff;
+  color: wheat;
 }
 
 .hero h2 {
   font-size: 48px;
   margin-bottom: 40px;
-}
-
-.hero button {
-  background-color: #fff;
-  color: #333;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 24px;
-  cursor: pointer;
 }
 
 .courses {

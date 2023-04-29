@@ -15,21 +15,14 @@ if (document.title === "courses") {
   });
 }
 
-// code to handle the "enroll" buttons
-var enrollButtons = document.querySelectorAll(".enroll-button");
-enrollButtons.forEach(function(button) {
-  button.addEventListener("click", function() {
-    window.location.href = "signup.html";
-  });
+const course1Btn = document.getElementById("course1");
+const course2Btn = document.getElementById("course2");
+
+// Add event listeners to each button
+course1Btn.addEventListener("click", function () {
+  window.location.href = "Responsive-Web-Design.html";
 });
 
-var enrollButton1 = document.querySelector("#enroll-course1");
-enrollButton1.addEventListener("click", function () {
-  window.location.href = "signup.html";
+course2Btn.addEventListener("click", function () {
+  window.location.href = "Data-Analysis.html";
 });
-
-var enrollButton2 = document.querySelector("#enroll-course2");
-enrollButton1.addEventListener("click", function () {
-  window.location.href = "signup.html";
-});
-
