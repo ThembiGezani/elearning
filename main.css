@@ -19,12 +19,18 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  position: fixed; /* Added position property */
+  top: 0; /* Added top property */
+  left: 0; /* Added left property */
+  right: 0; /* Added right property */
+  z-index: 999; /* Added z-index property */
 }
 header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 nav ul {
   list-style: none;
   display: flex;
@@ -39,10 +45,12 @@ nav ul li a {
 nav ul li a:hover{
   color: greenyellow;
 }
+
 .main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  margin-top: 80px; /* Added margin-top property to push down the content */
 }
 
 .hero {
@@ -123,38 +131,6 @@ nav ul li a:hover{
 }
 
 /* Media Queries */
-
-/* For screens smaller than 768px */
-@media screen and (max-width: 767px) {
-
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header h1 {
-    margin-top: 20px;
-  }
-
-  nav ul {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .hero h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-
-  .hero button {
-    font-size: 18px;
-  }
-
-  .course-card {
-    width: 100%;
-  }
-
-}
 
 /* For screens between 768px and 992px */
 @media screen and (min-width: 768px) and (max-width: 991px) {
