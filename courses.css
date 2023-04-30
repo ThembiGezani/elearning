@@ -1,11 +1,31 @@
 /* Reset some default styles */
-body, figure, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
 }
 
 /* Add a box-sizing reset */
-body, figure, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   box-sizing: border-box;
 }
 
@@ -26,6 +46,11 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  position: fixed; /* Added position property */
+  top: 0; /* Added top property */
+  left: 0; /* Added left property */
+  right: 0; /* Added right property */
+  z-index: 999; /* Added z-index property */
 }
 
 nav ul {
