@@ -1,5 +1,8 @@
 /* Reset default styles */
-body, h1, h2, p {
+body,
+h1,
+h2,
+p {
   margin: 0;
   padding: 0;
 }
@@ -14,6 +17,11 @@ body {
 header {
   background-color: #f2f2f2;
   padding: 10px;
+  position: fixed; /* Added position property */
+  top: 0; /* Added top property */
+  left: 0; /* Added left property */
+  right: 0; /* Added right property */
+  z-index: 999; /* Added z-index property */
 }
 
 nav ul {
