@@ -29,6 +29,11 @@ header {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: fixed; /* Added position property */
+  top: 0; /* Added top property */
+  left: 0; /* Added left property */
+  right: 0; /* Added right property */
+  z-index: 999; /* Added z-index property */
 }
 
 nav ul {
